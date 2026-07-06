@@ -27,4 +27,13 @@ void main() {
   // ...add `?` to allow null explicitly.
   String? maybeNickname;
   print('nickname is ${maybeNickname ?? "not set"}'); // ?? = null-coalescing
+
+  List<Object?> scores = [1, 2, 'mario', null];
+  scores.add(200);
+  var indexItem = scores.indexOf(2);
+  print(indexItem);
+  print(scores);
+
+  Set<String> names = {'armen', 'john'};
+  print(names);
 }
