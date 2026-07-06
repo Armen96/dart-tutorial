@@ -1,5 +1,7 @@
 {
+  "disableAutoMode": "disable",
   "permissions": {
+    "defaultMode": "default",
     "allow": [
       "Bash(dart analyze:*)",
       "Bash(dart test:*)",
