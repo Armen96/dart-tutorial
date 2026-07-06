@@ -1,0 +1,24 @@
+# Static analysis configuration for the Dart analyzer.
+# https://dart.dev/tools/analysis
+#
+# `lints/recommended.yaml` is the community-standard rule set. As you grow,
+# you can switch to the stricter `package:lints/core.yaml` + custom rules.
+include: package:lints/recommended.yaml
+
+analyzer:
+  # Treat these as errors so problems are impossible to ignore while learning.
+  language:
+    strict-casts: true
+    strict-raw-types: true
+  exclude:
+    # Flutter apps under apps/ are their own packages with their own analysis.
+    - apps/**
+    - build/**
+
+linter:
+  rules:
+    # A few extra guardrails that teach good habits. Comment any out if they
+    # get in your way while experimenting.
+    - prefer_single_quotes
+    # `prefer_final_locals` is intentionally NOT enabled: several lessons use
+    # `var` on purpose to contrast mutable variables with `final` / `const`.
