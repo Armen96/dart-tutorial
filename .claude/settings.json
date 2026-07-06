@@ -9,7 +9,23 @@
       "Bash(dart run:*)",
       "Bash(dart pub get:*)",
       "Bash(dart pub add:*)",
-      "Bash(dart pub outdated:*)"
+      "Bash(dart pub outdated:*)",
+      "Bash(git:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(egrep:*)",
+      "Bash(fgrep:*)",
+      "Bash(cat:*)",
+      "Bash(head:*)",
+      "Bash(tail:*)",
+      "Bash(less:*)",
+      "Bash(more:*)",
+      "Bash(ls:*)",
+      "Bash(dir:*)",
+      "Bash(tree:*)",
+      "Bash(echo:*)",
+      "Bash(printf:*)",
+      "Bash(test:*)"
     ]
   }
 }
